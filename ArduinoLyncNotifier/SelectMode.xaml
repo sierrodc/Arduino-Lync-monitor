@@ -1,0 +1,15 @@
+﻿<Window x:Class="ArduinoLyncNotifier.SelectMode"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Select Mode" Height="300" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Button Content="Real Lync monitor" Margin="10" Click="StartMonitor_Click" />
+        <Button Content="Simulator" Margin="10" Grid.Row="1" Click="StartSimulator_Click" />
+
+    </Grid>
+    
+</Window>
